@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* Sup101AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* Sup101AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		B2E82BCD1623B99C00B2FC69 /* SUP101ChangeLogImplMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BA81623B99C00B2FC69 /* SUP101ChangeLogImplMetaData.m */; };
+		B2E82BCE1623B99C00B2FC69 /* SUP101ChangeLogKeyMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BA91623B99C00B2FC69 /* SUP101ChangeLogKeyMetaData.m */; };
+		B2E82BCF1623B99C00B2FC69 /* SUP101CustomerMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BAA1623B99C00B2FC69 /* SUP101CustomerMetaData.m */; };
+		B2E82BD01623B99C00B2FC69 /* SUP101KeyGeneratorMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BAB1623B99C00B2FC69 /* SUP101KeyGeneratorMetaData.m */; };
+		B2E82BD11623B99C00B2FC69 /* SUP101KeyGeneratorPKMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BAC1623B99C00B2FC69 /* SUP101KeyGeneratorPKMetaData.m */; };
+		B2E82BD21623B99C00B2FC69 /* SUP101KeyPackageNameMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BAD1623B99C00B2FC69 /* SUP101KeyPackageNameMetaData.m */; };
+		B2E82BD31623B99C00B2FC69 /* SUP101LocalKeyGeneratorMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BAE1623B99C00B2FC69 /* SUP101LocalKeyGeneratorMetaData.m */; };
+		B2E82BD41623B99C00B2FC69 /* SUP101LocalKeyGeneratorPKMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BAF1623B99C00B2FC69 /* SUP101LocalKeyGeneratorPKMetaData.m */; };
+		B2E82BD51623B99C00B2FC69 /* SUP101LogRecordImplMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BB01623B99C00B2FC69 /* SUP101LogRecordImplMetaData.m */; };
+		B2E82BD61623B99C00B2FC69 /* SUP101OfflineAuthenticationMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BB11623B99C00B2FC69 /* SUP101OfflineAuthenticationMetaData.m */; };
+		B2E82BD71623B99C00B2FC69 /* SUP101OperationReplayMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BB21623B99C00B2FC69 /* SUP101OperationReplayMetaData.m */; };
+		B2E82BD81623B99C00B2FC69 /* SUP101PackagePropertiesMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BB31623B99C00B2FC69 /* SUP101PackagePropertiesMetaData.m */; };
+		B2E82BD91623B99C00B2FC69 /* SUP101PersonalizationParametersMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BB41623B99C00B2FC69 /* SUP101PersonalizationParametersMetaData.m */; };
+		B2E82BDA1623B99C00B2FC69 /* SUP101Sales_order_itemsMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BB51623B99C00B2FC69 /* SUP101Sales_order_itemsMetaData.m */; };
+		B2E82BDB1623B99C00B2FC69 /* SUP101Sales_orderMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BB61623B99C00B2FC69 /* SUP101Sales_orderMetaData.m */; };
+		B2E82BDC1623B99C00B2FC69 /* SUP101SISSubscriptionKeyMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BB71623B99C00B2FC69 /* SUP101SISSubscriptionKeyMetaData.m */; };
+		B2E82BDD1623B99C00B2FC69 /* SUP101SISSubscriptionMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BB81623B99C00B2FC69 /* SUP101SISSubscriptionMetaData.m */; };
+		B2E82BDE1623B99C00B2FC69 /* SUP101SUP101DBMetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BB91623B99C00B2FC69 /* SUP101SUP101DBMetaData.m */; };
+		B2E82BDF1623B99C00B2FC69 /* SUP101ChangeLogImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BBA1623B99C00B2FC69 /* SUP101ChangeLogImpl.m */; };
+		B2E82BE01623B99C00B2FC69 /* SUP101ChangeLogKey.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BBB1623B99C00B2FC69 /* SUP101ChangeLogKey.m */; };
+		B2E82BE11623B99C00B2FC69 /* SUP101Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BBC1623B99C00B2FC69 /* SUP101Customer.m */; };
+		B2E82BE21623B99C00B2FC69 /* SUP101KeyGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BBD1623B99C00B2FC69 /* SUP101KeyGenerator.m */; };
+		B2E82BE31623B99C00B2FC69 /* SUP101KeyGeneratorPK.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BBE1623B99C00B2FC69 /* SUP101KeyGeneratorPK.m */; };
+		B2E82BE41623B99C00B2FC69 /* SUP101KeyPackageName.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BBF1623B99C00B2FC69 /* SUP101KeyPackageName.m */; };
+		B2E82BE51623B99C00B2FC69 /* SUP101LocalKeyGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BC01623B99C00B2FC69 /* SUP101LocalKeyGenerator.m */; };
+		B2E82BE61623B99C00B2FC69 /* SUP101LocalKeyGeneratorPK.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BC11623B99C00B2FC69 /* SUP101LocalKeyGeneratorPK.m */; };
+		B2E82BE71623B99C00B2FC69 /* SUP101LoggerImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BC21623B99C00B2FC69 /* SUP101LoggerImpl.m */; };
+		B2E82BE81623B99C00B2FC69 /* SUP101LogRecordImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BC31623B99C00B2FC69 /* SUP101LogRecordImpl.m */; };
+		B2E82BE91623B99C00B2FC69 /* SUP101OfflineAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BC41623B99C00B2FC69 /* SUP101OfflineAuthentication.m */; };
+		B2E82BEA1623B99C00B2FC69 /* SUP101OperationReplay.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BC51623B99C00B2FC69 /* SUP101OperationReplay.m */; };
+		B2E82BEB1623B99C00B2FC69 /* SUP101PackageProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BC61623B99C00B2FC69 /* SUP101PackageProperties.m */; };
+		B2E82BEC1623B99C00B2FC69 /* SUP101PersonalizationParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BC71623B99C00B2FC69 /* SUP101PersonalizationParameters.m */; };
+		B2E82BED1623B99C00B2FC69 /* SUP101Sales_order.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BC81623B99C00B2FC69 /* SUP101Sales_order.m */; };
+		B2E82BEE1623B99C00B2FC69 /* SUP101Sales_order_items.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BC91623B99C00B2FC69 /* SUP101Sales_order_items.m */; };
+		B2E82BEF1623B99C00B2FC69 /* SUP101SISSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BCA1623B99C00B2FC69 /* SUP101SISSubscription.m */; };
+		B2E82BF01623B99C00B2FC69 /* SUP101SISSubscriptionKey.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BCB1623B99C00B2FC69 /* SUP101SISSubscriptionKey.m */; };
+		B2E82BF11623B99C00B2FC69 /* SUP101SUP101DB.m in Sources */ = {isa = PBXBuildFile; fileRef = B2E82BCC1623B99C00B2FC69 /* SUP101SUP101DB.m */; };
+		B32E747C150FCD3F009CACBD /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B32E747B150FCD3F009CACBD /* Settings.bundle */; };
+		B32E749E15102E04009CACBD /* libAfariaSLL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B32E749715102E04009CACBD /* libAfariaSLL.a */; };
+		B32E749F15102E04009CACBD /* libclientrt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B32E749815102E04009CACBD /* libclientrt.a */; };
+		B32E74A015102E04009CACBD /* libDatavault.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B32E749915102E04009CACBD /* libDatavault.a */; };
+		B32E74A115102E04009CACBD /* libMO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B32E749A15102E04009CACBD /* libMO.a */; };
+		B32E74A215102E04009CACBD /* libsupcore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B32E749B15102E04009CACBD /* libsupcore.a */; };
+		B32E74A315102E04009CACBD /* libSUPObj.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B32E749C15102E04009CACBD /* libSUPObj.a */; };
+		B32E74A415102E04009CACBD /* libsupUltralite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B32E749D15102E04009CACBD /* libsupUltralite.a */; };
+		B3B7A82A14859558008F6401 /* MenuListController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3B7A82814859558008F6401 /* MenuListController.m */; };
+		B3B7A82B14859558008F6401 /* MenuListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3B7A82914859558008F6401 /* MenuListController.xib */; };
+		CD95EDBD14840B040088901E /* CallbackHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CD95EDBC14840B040088901E /* CallbackHandler.m */; };
+		CDAF3D911474DFAE00DE6DB5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAF3D901474DFAE00DE6DB5 /* CFNetwork.framework */; };
+		CDAF3D931474DFF200DE6DB5 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAF3D921474DFF200DE6DB5 /* libz.1.2.5.dylib */; };
+		CDAF3F981476D7DF00DE6DB5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAF3F961476D7DF00DE6DB5 /* MobileCoreServices.framework */; };
+		CDAF3F991476D7DF00DE6DB5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDAF3F971476D7DF00DE6DB5 /* SystemConfiguration.framework */; };
+		CDB4657A1199BE3000824569 /* DetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB465781199BE3000824569 /* DetailController.m */; };
+		CDB465C51199CAF800824569 /* CustomerDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDB465C41199CAF800824569 /* CustomerDetail.xib */; };
+		CDB467B11199F84500824569 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB467B01199F84500824569 /* AddressBook.framework */; };
+		CDB467B31199F84500824569 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB467B21199F84500824569 /* QuartzCore.framework */; };
+		CDB467B51199F84500824569 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB467B41199F84500824569 /* Security.framework */; };
+		CDB467B71199F84500824569 /* libicucore.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB467B61199F84500824569 /* libicucore.A.dylib */; };
+		CDB467B91199F84500824569 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB467B81199F84500824569 /* libstdc++.6.dylib */; };
+		CDB46BCD119B1DB100824569 /* SubscribeController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB46BCB119B1DB100824569 /* SubscribeController.m */; };
+		CDB46BCE119B1DB100824569 /* SubscribeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDB46BCC119B1DB100824569 /* SubscribeController.xib */; };
+		CDB46C7C119B29DC00824569 /* CustomerListController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB46C7B119B29DC00824569 /* CustomerListController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* Sup101AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sup101AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* Sup101AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sup101AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Sup101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sup101.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Sup101_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sup101_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Sup101-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Sup101-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B2E82B801623B99C00B2FC69 /* SUP101ChangeLogImplMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101ChangeLogImplMetaData.h; sourceTree = "<group>"; };
+		B2E82B811623B99C00B2FC69 /* SUP101ChangeLogKeyMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101ChangeLogKeyMetaData.h; sourceTree = "<group>"; };
+		B2E82B821623B99C00B2FC69 /* SUP101CustomerMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101CustomerMetaData.h; sourceTree = "<group>"; };
+		B2E82B831623B99C00B2FC69 /* SUP101KeyGeneratorMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101KeyGeneratorMetaData.h; sourceTree = "<group>"; };
+		B2E82B841623B99C00B2FC69 /* SUP101KeyGeneratorPKMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101KeyGeneratorPKMetaData.h; sourceTree = "<group>"; };
+		B2E82B851623B99C00B2FC69 /* SUP101KeyPackageNameMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101KeyPackageNameMetaData.h; sourceTree = "<group>"; };
+		B2E82B861623B99C00B2FC69 /* SUP101LocalKeyGeneratorMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101LocalKeyGeneratorMetaData.h; sourceTree = "<group>"; };
+		B2E82B871623B99C00B2FC69 /* SUP101LocalKeyGeneratorPKMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101LocalKeyGeneratorPKMetaData.h; sourceTree = "<group>"; };
+		B2E82B881623B99C00B2FC69 /* SUP101LogRecordImplMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101LogRecordImplMetaData.h; sourceTree = "<group>"; };
+		B2E82B891623B99C00B2FC69 /* SUP101OfflineAuthenticationMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101OfflineAuthenticationMetaData.h; sourceTree = "<group>"; };
+		B2E82B8A1623B99C00B2FC69 /* SUP101OperationReplayMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101OperationReplayMetaData.h; sourceTree = "<group>"; };
+		B2E82B8B1623B99C00B2FC69 /* SUP101PackagePropertiesMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101PackagePropertiesMetaData.h; sourceTree = "<group>"; };
+		B2E82B8C1623B99C00B2FC69 /* SUP101PersonalizationParametersMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101PersonalizationParametersMetaData.h; sourceTree = "<group>"; };
+		B2E82B8D1623B99C00B2FC69 /* SUP101Sales_order_itemsMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101Sales_order_itemsMetaData.h; sourceTree = "<group>"; };
+		B2E82B8E1623B99C00B2FC69 /* SUP101Sales_orderMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101Sales_orderMetaData.h; sourceTree = "<group>"; };
+		B2E82B8F1623B99C00B2FC69 /* SUP101SISSubscriptionKeyMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101SISSubscriptionKeyMetaData.h; sourceTree = "<group>"; };
+		B2E82B901623B99C00B2FC69 /* SUP101SISSubscriptionMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101SISSubscriptionMetaData.h; sourceTree = "<group>"; };
+		B2E82B911623B99C00B2FC69 /* SUP101SUP101DBMetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101SUP101DBMetaData.h; sourceTree = "<group>"; };
+		B2E82B921623B99C00B2FC69 /* SUP101ChangeLogImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101ChangeLogImpl.h; sourceTree = "<group>"; };
+		B2E82B931623B99C00B2FC69 /* SUP101ChangeLogKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101ChangeLogKey.h; sourceTree = "<group>"; };
+		B2E82B941623B99C00B2FC69 /* SUP101Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101Customer.h; sourceTree = "<group>"; };
+		B2E82B951623B99C00B2FC69 /* SUP101KeyGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101KeyGenerator.h; sourceTree = "<group>"; };
+		B2E82B961623B99C00B2FC69 /* SUP101KeyGeneratorPK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101KeyGeneratorPK.h; sourceTree = "<group>"; };
+		B2E82B971623B99C00B2FC69 /* SUP101KeyPackageName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101KeyPackageName.h; sourceTree = "<group>"; };
+		B2E82B981623B99C00B2FC69 /* SUP101LocalKeyGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101LocalKeyGenerator.h; sourceTree = "<group>"; };
+		B2E82B991623B99C00B2FC69 /* SUP101LocalKeyGeneratorPK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101LocalKeyGeneratorPK.h; sourceTree = "<group>"; };
+		B2E82B9A1623B99C00B2FC69 /* SUP101LoggerImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101LoggerImpl.h; sourceTree = "<group>"; };
+		B2E82B9B1623B99C00B2FC69 /* SUP101LogRecordImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101LogRecordImpl.h; sourceTree = "<group>"; };
+		B2E82B9C1623B99C00B2FC69 /* SUP101OfflineAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101OfflineAuthentication.h; sourceTree = "<group>"; };
+		B2E82B9D1623B99C00B2FC69 /* SUP101OperationReplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101OperationReplay.h; sourceTree = "<group>"; };
+		B2E82B9E1623B99C00B2FC69 /* SUP101PackageProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101PackageProperties.h; sourceTree = "<group>"; };
+		B2E82B9F1623B99C00B2FC69 /* SUP101PersonalizationParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101PersonalizationParameters.h; sourceTree = "<group>"; };
+		B2E82BA01623B99C00B2FC69 /* SUP101Sales_order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101Sales_order.h; sourceTree = "<group>"; };
+		B2E82BA11623B99C00B2FC69 /* SUP101Sales_order_items.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101Sales_order_items.h; sourceTree = "<group>"; };
+		B2E82BA21623B99C00B2FC69 /* SUP101SISSubscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101SISSubscription.h; sourceTree = "<group>"; };
+		B2E82BA31623B99C00B2FC69 /* SUP101SISSubscriptionKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101SISSubscriptionKey.h; sourceTree = "<group>"; };
+		B2E82BA41623B99C00B2FC69 /* SUP101SUP101DB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SUP101SUP101DB.h; sourceTree = "<group>"; };
+		B2E82BA81623B99C00B2FC69 /* SUP101ChangeLogImplMetaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101ChangeLogImplMetaData.m; sourceTree = "<group>"; };
+		B2E82BA91623B99C00B2FC69 /* SUP101ChangeLogKeyMetaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101ChangeLogKeyMetaData.m; sourceTree = "<group>"; };
+		B2E82BAA1623B99C00B2FC69 /* SUP101CustomerMetaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101CustomerMetaData.m; sourceTree = "<group>"; };
+		B2E82BAB1623B99C00B2FC69 /* SUP101KeyGeneratorMetaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101KeyGeneratorMetaData.m; sourceTree = "<group>"; };
+		B2E82BAC1623B99C00B2FC69 /* SUP101KeyGeneratorPKMetaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101KeyGeneratorPKMetaData.m; sourceTree = "<group>"; };
+		B2E82BAD1623B99C00B2FC69 /* SUP101KeyPackageNameMetaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101KeyPackageNameMetaData.m; sourceTree = "<group>"; };
+		B2E82BAE1623B99C00B2FC69 /* SUP101LocalKeyGeneratorMetaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101LocalKeyGeneratorMetaData.m; sourceTree = "<group>"; };
+		B2E82BAF1623B99C00B2FC69 /* SUP101LocalKeyGeneratorPKMetaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101LocalKeyGeneratorPKMetaData.m; sourceTree = "<group>"; };
+		B2E82BB01623B99C00B2FC69 /* SUP101LogRecordImplMetaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101LogRecordImplMetaData.m; sourceTree = "<group>"; };
+		B2E82BB11623B99C00B2FC69 /* SUP101OfflineAuthenticationMetaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101OfflineAuthenticationMetaData.m; sourceTree = "<group>"; };
+		B2E82BB21623B99C00B2FC69 /* SUP101OperationReplayMetaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101OperationReplayMetaData.m; sourceTree = "<group>"; };
+		B2E82BB31623B99C00B2FC69 /* SUP101PackagePropertiesMetaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101PackagePropertiesMetaData.m; sourceTree = "<group>"; };
+		B2E82BB41623B99C00B2FC69 /* SUP101PersonalizationParametersMetaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101PersonalizationParametersMetaData.m; sourceTree = "<group>"; };
+		B2E82BB51623B99C00B2FC69 /* SUP101Sales_order_itemsMetaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101Sales_order_itemsMetaData.m; sourceTree = "<group>"; };
+		B2E82BB61623B99C00B2FC69 /* SUP101Sales_orderMetaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101Sales_orderMetaData.m; sourceTree = "<group>"; };
+		B2E82BB71623B99C00B2FC69 /* SUP101SISSubscriptionKeyMetaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101SISSubscriptionKeyMetaData.m; sourceTree = "<group>"; };
+		B2E82BB81623B99C00B2FC69 /* SUP101SISSubscriptionMetaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101SISSubscriptionMetaData.m; sourceTree = "<group>"; };
+		B2E82BB91623B99C00B2FC69 /* SUP101SUP101DBMetaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101SUP101DBMetaData.m; sourceTree = "<group>"; };
+		B2E82BBA1623B99C00B2FC69 /* SUP101ChangeLogImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101ChangeLogImpl.m; sourceTree = "<group>"; };
+		B2E82BBB1623B99C00B2FC69 /* SUP101ChangeLogKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101ChangeLogKey.m; sourceTree = "<group>"; };
+		B2E82BBC1623B99C00B2FC69 /* SUP101Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101Customer.m; sourceTree = "<group>"; };
+		B2E82BBD1623B99C00B2FC69 /* SUP101KeyGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101KeyGenerator.m; sourceTree = "<group>"; };
+		B2E82BBE1623B99C00B2FC69 /* SUP101KeyGeneratorPK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101KeyGeneratorPK.m; sourceTree = "<group>"; };
+		B2E82BBF1623B99C00B2FC69 /* SUP101KeyPackageName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101KeyPackageName.m; sourceTree = "<group>"; };
+		B2E82BC01623B99C00B2FC69 /* SUP101LocalKeyGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101LocalKeyGenerator.m; sourceTree = "<group>"; };
+		B2E82BC11623B99C00B2FC69 /* SUP101LocalKeyGeneratorPK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101LocalKeyGeneratorPK.m; sourceTree = "<group>"; };
+		B2E82BC21623B99C00B2FC69 /* SUP101LoggerImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101LoggerImpl.m; sourceTree = "<group>"; };
+		B2E82BC31623B99C00B2FC69 /* SUP101LogRecordImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101LogRecordImpl.m; sourceTree = "<group>"; };
+		B2E82BC41623B99C00B2FC69 /* SUP101OfflineAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101OfflineAuthentication.m; sourceTree = "<group>"; };
+		B2E82BC51623B99C00B2FC69 /* SUP101OperationReplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101OperationReplay.m; sourceTree = "<group>"; };
+		B2E82BC61623B99C00B2FC69 /* SUP101PackageProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101PackageProperties.m; sourceTree = "<group>"; };
+		B2E82BC71623B99C00B2FC69 /* SUP101PersonalizationParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101PersonalizationParameters.m; sourceTree = "<group>"; };
+		B2E82BC81623B99C00B2FC69 /* SUP101Sales_order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101Sales_order.m; sourceTree = "<group>"; };
+		B2E82BC91623B99C00B2FC69 /* SUP101Sales_order_items.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101Sales_order_items.m; sourceTree = "<group>"; };
+		B2E82BCA1623B99C00B2FC69 /* SUP101SISSubscription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101SISSubscription.m; sourceTree = "<group>"; };
+		B2E82BCB1623B99C00B2FC69 /* SUP101SISSubscriptionKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101SISSubscriptionKey.m; sourceTree = "<group>"; };
+		B2E82BCC1623B99C00B2FC69 /* SUP101SUP101DB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SUP101SUP101DB.m; sourceTree = "<group>"; };
+		B32E747B150FCD3F009CACBD /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		B32E749715102E04009CACBD /* libAfariaSLL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAfariaSLL.a; path = "../iPhoneDrop/RBS/iOS/Libraries/Debug-iphonesimulator/libAfariaSLL.a"; sourceTree = "<group>"; };
+		B32E749815102E04009CACBD /* libclientrt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libclientrt.a; path = "../iPhoneDrop/RBS/iOS/Libraries/Debug-iphonesimulator/libclientrt.a"; sourceTree = "<group>"; };
+		B32E749915102E04009CACBD /* libDatavault.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libDatavault.a; path = "../iPhoneDrop/RBS/iOS/Libraries/Debug-iphonesimulator/libDatavault.a"; sourceTree = "<group>"; };
+		B32E749A15102E04009CACBD /* libMO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMO.a; path = "../iPhoneDrop/RBS/iOS/Libraries/Debug-iphonesimulator/libMO.a"; sourceTree = "<group>"; };
+		B32E749B15102E04009CACBD /* libsupcore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsupcore.a; path = "../iPhoneDrop/RBS/iOS/Libraries/Debug-iphonesimulator/libsupcore.a"; sourceTree = "<group>"; };
+		B32E749C15102E04009CACBD /* libSUPObj.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSUPObj.a; path = "../iPhoneDrop/RBS/iOS/Libraries/Debug-iphonesimulator/libSUPObj.a"; sourceTree = "<group>"; };
+		B32E749D15102E04009CACBD /* libsupUltralite.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsupUltralite.a; path = "../iPhoneDrop/RBS/iOS/Libraries/Debug-iphonesimulator/libsupUltralite.a"; sourceTree = "<group>"; };
+		B3B7A82714859557008F6401 /* MenuListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuListController.h; sourceTree = "<group>"; };
+		B3B7A82814859558008F6401 /* MenuListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuListController.m; sourceTree = "<group>"; };
+		B3B7A82914859558008F6401 /* MenuListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MenuListController.xib; path = Classes/MenuListController.xib; sourceTree = "<group>"; };
+		CD95EDBB14840B040088901E /* CallbackHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallbackHandler.h; sourceTree = "<group>"; };
+		CD95EDBC14840B040088901E /* CallbackHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallbackHandler.m; sourceTree = "<group>"; };
+		CDAF3D901474DFAE00DE6DB5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CDAF3D921474DFF200DE6DB5 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		CDAF3F961476D7DF00DE6DB5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CDAF3F971476D7DF00DE6DB5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CDB465771199BE3000824569 /* DetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailController.h; sourceTree = "<group>"; };
+		CDB465781199BE3000824569 /* DetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailController.m; sourceTree = "<group>"; };
+		CDB465C41199CAF800824569 /* CustomerDetail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomerDetail.xib; sourceTree = "<group>"; };
+		CDB467B01199F84500824569 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		CDB467B21199F84500824569 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CDB467B41199F84500824569 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CDB467B61199F84500824569 /* libicucore.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.A.dylib; path = usr/lib/libicucore.A.dylib; sourceTree = SDKROOT; };
+		CDB467B81199F84500824569 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
+		CDB46BCA119B1DB100824569 /* SubscribeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscribeController.h; sourceTree = "<group>"; };
+		CDB46BCB119B1DB100824569 /* SubscribeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscribeController.m; sourceTree = "<group>"; };
+		CDB46BCC119B1DB100824569 /* SubscribeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SubscribeController.xib; path = Classes/SubscribeController.xib; sourceTree = "<group>"; };
+		CDB46C7A119B29DC00824569 /* CustomerListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomerListController.h; path = Classes/CustomerListController.h; sourceTree = SOURCE_ROOT; };
+		CDB46C7B119B29DC00824569 /* CustomerListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomerListController.m; path = Classes/CustomerListController.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAF3F981476D7DF00DE6DB5 /* MobileCoreServices.framework in Frameworks */,
+				CDAF3F991476D7DF00DE6DB5 /* SystemConfiguration.framework in Frameworks */,
+				CDAF3D931474DFF200DE6DB5 /* libz.1.2.5.dylib in Frameworks */,
+				CDAF3D911474DFAE00DE6DB5 /* CFNetwork.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				CDB467B11199F84500824569 /* AddressBook.framework in Frameworks */,
+				CDB467B31199F84500824569 /* QuartzCore.framework in Frameworks */,
+				CDB467B51199F84500824569 /* Security.framework in Frameworks */,
+				CDB467B71199F84500824569 /* libicucore.A.dylib in Frameworks */,
+				CDB467B91199F84500824569 /* libstdc++.6.dylib in Frameworks */,
+				B32E749E15102E04009CACBD /* libAfariaSLL.a in Frameworks */,
+				B32E749F15102E04009CACBD /* libclientrt.a in Frameworks */,
+				B32E74A015102E04009CACBD /* libDatavault.a in Frameworks */,
+				B32E74A115102E04009CACBD /* libMO.a in Frameworks */,
+				B32E74A215102E04009CACBD /* libsupcore.a in Frameworks */,
+				B32E74A315102E04009CACBD /* libSUPObj.a in Frameworks */,
+				B32E74A415102E04009CACBD /* libsupUltralite.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CD95EDBB14840B040088901E /* CallbackHandler.h */,
+				CD95EDBC14840B040088901E /* CallbackHandler.m */,
+				CDB46C7A119B29DC00824569 /* CustomerListController.h */,
+				CDB46C7B119B29DC00824569 /* CustomerListController.m */,
+				1D3623240D0F684500981E51 /* Sup101AppDelegate.h */,
+				1D3623250D0F684500981E51 /* Sup101AppDelegate.m */,
+				CDB465771199BE3000824569 /* DetailController.h */,
+				CDB465781199BE3000824569 /* DetailController.m */,
+				CDB46BCA119B1DB100824569 /* SubscribeController.h */,
+				CDB46BCB119B1DB100824569 /* SubscribeController.m */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				B3B7A82714859557008F6401 /* MenuListController.h */,
+				B3B7A82814859558008F6401 /* MenuListController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Sup101.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				B3F139C2156C495700516C43 /* Generated Code */,
+				CDAF3F961476D7DF00DE6DB5 /* MobileCoreServices.framework */,
+				CDAF3F971476D7DF00DE6DB5 /* SystemConfiguration.framework */,
+				CDAF3D921474DFF200DE6DB5 /* libz.1.2.5.dylib */,
+				CDAF3D901474DFAE00DE6DB5 /* CFNetwork.framework */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				CDB467B01199F84500824569 /* AddressBook.framework */,
+				CDB467B21199F84500824569 /* QuartzCore.framework */,
+				CDB467B41199F84500824569 /* Security.framework */,
+				CDB467B61199F84500824569 /* libicucore.A.dylib */,
+				CDB467B81199F84500824569 /* libstdc++.6.dylib */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Sup101_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B32E747B150FCD3F009CACBD /* Settings.bundle */,
+				B3B7A82914859558008F6401 /* MenuListController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Sup101-Info.plist */,
+				CDB465C41199CAF800824569 /* CustomerDetail.xib */,
+				CDB46BCC119B1DB100824569 /* SubscribeController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B32E749715102E04009CACBD /* libAfariaSLL.a */,
+				B32E749815102E04009CACBD /* libclientrt.a */,
+				B32E749915102E04009CACBD /* libDatavault.a */,
+				B32E749A15102E04009CACBD /* libMO.a */,
+				B32E749B15102E04009CACBD /* libsupcore.a */,
+				B32E749C15102E04009CACBD /* libSUPObj.a */,
+				B32E749D15102E04009CACBD /* libsupUltralite.a */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2E82B7D1623B99C00B2FC69 /* includes */ = {
+			isa = PBXGroup;
+			children = (
+				B2E82B7E1623B99C00B2FC69 /* SUP101 */,
+			);
+			path = includes;
+			sourceTree = "<group>";
+		};
+		B2E82B7E1623B99C00B2FC69 /* SUP101 */ = {
+			isa = PBXGroup;
+			children = (
+				B2E82B7F1623B99C00B2FC69 /* internal */,
+				B2E82B921623B99C00B2FC69 /* SUP101ChangeLogImpl.h */,
+				B2E82B931623B99C00B2FC69 /* SUP101ChangeLogKey.h */,
+				B2E82B941623B99C00B2FC69 /* SUP101Customer.h */,
+				B2E82B951623B99C00B2FC69 /* SUP101KeyGenerator.h */,
+				B2E82B961623B99C00B2FC69 /* SUP101KeyGeneratorPK.h */,
+				B2E82B971623B99C00B2FC69 /* SUP101KeyPackageName.h */,
+				B2E82B981623B99C00B2FC69 /* SUP101LocalKeyGenerator.h */,
+				B2E82B991623B99C00B2FC69 /* SUP101LocalKeyGeneratorPK.h */,
+				B2E82B9A1623B99C00B2FC69 /* SUP101LoggerImpl.h */,
+				B2E82B9B1623B99C00B2FC69 /* SUP101LogRecordImpl.h */,
+				B2E82B9C1623B99C00B2FC69 /* SUP101OfflineAuthentication.h */,
+				B2E82B9D1623B99C00B2FC69 /* SUP101OperationReplay.h */,
+				B2E82B9E1623B99C00B2FC69 /* SUP101PackageProperties.h */,
+				B2E82B9F1623B99C00B2FC69 /* SUP101PersonalizationParameters.h */,
+				B2E82BA01623B99C00B2FC69 /* SUP101Sales_order.h */,
+				B2E82BA11623B99C00B2FC69 /* SUP101Sales_order_items.h */,
+				B2E82BA21623B99C00B2FC69 /* SUP101SISSubscription.h */,
+				B2E82BA31623B99C00B2FC69 /* SUP101SISSubscriptionKey.h */,
+				B2E82BA41623B99C00B2FC69 /* SUP101SUP101DB.h */,
+			);
+			path = SUP101;
+			sourceTree = "<group>";
+		};
+		B2E82B7F1623B99C00B2FC69 /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				B2E82B801623B99C00B2FC69 /* SUP101ChangeLogImplMetaData.h */,
+				B2E82B811623B99C00B2FC69 /* SUP101ChangeLogKeyMetaData.h */,
+				B2E82B821623B99C00B2FC69 /* SUP101CustomerMetaData.h */,
+				B2E82B831623B99C00B2FC69 /* SUP101KeyGeneratorMetaData.h */,
+				B2E82B841623B99C00B2FC69 /* SUP101KeyGeneratorPKMetaData.h */,
+				B2E82B851623B99C00B2FC69 /* SUP101KeyPackageNameMetaData.h */,
+				B2E82B861623B99C00B2FC69 /* SUP101LocalKeyGeneratorMetaData.h */,
+				B2E82B871623B99C00B2FC69 /* SUP101LocalKeyGeneratorPKMetaData.h */,
+				B2E82B881623B99C00B2FC69 /* SUP101LogRecordImplMetaData.h */,
+				B2E82B891623B99C00B2FC69 /* SUP101OfflineAuthenticationMetaData.h */,
+				B2E82B8A1623B99C00B2FC69 /* SUP101OperationReplayMetaData.h */,
+				B2E82B8B1623B99C00B2FC69 /* SUP101PackagePropertiesMetaData.h */,
+				B2E82B8C1623B99C00B2FC69 /* SUP101PersonalizationParametersMetaData.h */,
+				B2E82B8D1623B99C00B2FC69 /* SUP101Sales_order_itemsMetaData.h */,
+				B2E82B8E1623B99C00B2FC69 /* SUP101Sales_orderMetaData.h */,
+				B2E82B8F1623B99C00B2FC69 /* SUP101SISSubscriptionKeyMetaData.h */,
+				B2E82B901623B99C00B2FC69 /* SUP101SISSubscriptionMetaData.h */,
+				B2E82B911623B99C00B2FC69 /* SUP101SUP101DBMetaData.h */,
+			);
+			path = internal;
+			sourceTree = "<group>";
+		};
+		B2E82BA51623B99C00B2FC69 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				B2E82BA61623B99C00B2FC69 /* SUP101 */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		B2E82BA61623B99C00B2FC69 /* SUP101 */ = {
+			isa = PBXGroup;
+			children = (
+				B2E82BA71623B99C00B2FC69 /* internal */,
+				B2E82BBA1623B99C00B2FC69 /* SUP101ChangeLogImpl.m */,
+				B2E82BBB1623B99C00B2FC69 /* SUP101ChangeLogKey.m */,
+				B2E82BBC1623B99C00B2FC69 /* SUP101Customer.m */,
+				B2E82BBD1623B99C00B2FC69 /* SUP101KeyGenerator.m */,
+				B2E82BBE1623B99C00B2FC69 /* SUP101KeyGeneratorPK.m */,
+				B2E82BBF1623B99C00B2FC69 /* SUP101KeyPackageName.m */,
+				B2E82BC01623B99C00B2FC69 /* SUP101LocalKeyGenerator.m */,
+				B2E82BC11623B99C00B2FC69 /* SUP101LocalKeyGeneratorPK.m */,
+				B2E82BC21623B99C00B2FC69 /* SUP101LoggerImpl.m */,
+				B2E82BC31623B99C00B2FC69 /* SUP101LogRecordImpl.m */,
+				B2E82BC41623B99C00B2FC69 /* SUP101OfflineAuthentication.m */,
+				B2E82BC51623B99C00B2FC69 /* SUP101OperationReplay.m */,
+				B2E82BC61623B99C00B2FC69 /* SUP101PackageProperties.m */,
+				B2E82BC71623B99C00B2FC69 /* SUP101PersonalizationParameters.m */,
+				B2E82BC81623B99C00B2FC69 /* SUP101Sales_order.m */,
+				B2E82BC91623B99C00B2FC69 /* SUP101Sales_order_items.m */,
+				B2E82BCA1623B99C00B2FC69 /* SUP101SISSubscription.m */,
+				B2E82BCB1623B99C00B2FC69 /* SUP101SISSubscriptionKey.m */,
+				B2E82BCC1623B99C00B2FC69 /* SUP101SUP101DB.m */,
+			);
+			path = SUP101;
+			sourceTree = "<group>";
+		};
+		B2E82BA71623B99C00B2FC69 /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				B2E82BA81623B99C00B2FC69 /* SUP101ChangeLogImplMetaData.m */,
+				B2E82BA91623B99C00B2FC69 /* SUP101ChangeLogKeyMetaData.m */,
+				B2E82BAA1623B99C00B2FC69 /* SUP101CustomerMetaData.m */,
+				B2E82BAB1623B99C00B2FC69 /* SUP101KeyGeneratorMetaData.m */,
+				B2E82BAC1623B99C00B2FC69 /* SUP101KeyGeneratorPKMetaData.m */,
+				B2E82BAD1623B99C00B2FC69 /* SUP101KeyPackageNameMetaData.m */,
+				B2E82BAE1623B99C00B2FC69 /* SUP101LocalKeyGeneratorMetaData.m */,
+				B2E82BAF1623B99C00B2FC69 /* SUP101LocalKeyGeneratorPKMetaData.m */,
+				B2E82BB01623B99C00B2FC69 /* SUP101LogRecordImplMetaData.m */,
+				B2E82BB11623B99C00B2FC69 /* SUP101OfflineAuthenticationMetaData.m */,
+				B2E82BB21623B99C00B2FC69 /* SUP101OperationReplayMetaData.m */,
+				B2E82BB31623B99C00B2FC69 /* SUP101PackagePropertiesMetaData.m */,
+				B2E82BB41623B99C00B2FC69 /* SUP101PersonalizationParametersMetaData.m */,
+				B2E82BB51623B99C00B2FC69 /* SUP101Sales_order_itemsMetaData.m */,
+				B2E82BB61623B99C00B2FC69 /* SUP101Sales_orderMetaData.m */,
+				B2E82BB71623B99C00B2FC69 /* SUP101SISSubscriptionKeyMetaData.m */,
+				B2E82BB81623B99C00B2FC69 /* SUP101SISSubscriptionMetaData.m */,
+				B2E82BB91623B99C00B2FC69 /* SUP101SUP101DBMetaData.m */,
+			);
+			path = internal;
+			sourceTree = "<group>";
+		};
+		B3F139C2156C495700516C43 /* Generated Code */ = {
+			isa = PBXGroup;
+			children = (
+				B2E82B7D1623B99C00B2FC69 /* includes */,
+				B2E82BA51623B99C00B2FC69 /* src */,
+			);
+			path = "Generated Code";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Sup101 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Sup101" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sup101;
+			productName = Sup101;
+			productReference = 1D6058910D05DD3D006BFB54 /* Sup101.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Sup101" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Sup101 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				CDB465C51199CAF800824569 /* CustomerDetail.xib in Resources */,
+				CDB46BCE119B1DB100824569 /* SubscribeController.xib in Resources */,
+				B3B7A82B14859558008F6401 /* MenuListController.xib in Resources */,
+				B32E747C150FCD3F009CACBD /* Settings.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* Sup101AppDelegate.m in Sources */,
+				CDB4657A1199BE3000824569 /* DetailController.m in Sources */,
+				CDB46BCD119B1DB100824569 /* SubscribeController.m in Sources */,
+				CDB46C7C119B29DC00824569 /* CustomerListController.m in Sources */,
+				CD95EDBD14840B040088901E /* CallbackHandler.m in Sources */,
+				B3B7A82A14859558008F6401 /* MenuListController.m in Sources */,
+				B2E82BCD1623B99C00B2FC69 /* SUP101ChangeLogImplMetaData.m in Sources */,
+				B2E82BCE1623B99C00B2FC69 /* SUP101ChangeLogKeyMetaData.m in Sources */,
+				B2E82BCF1623B99C00B2FC69 /* SUP101CustomerMetaData.m in Sources */,
+				B2E82BD01623B99C00B2FC69 /* SUP101KeyGeneratorMetaData.m in Sources */,
+				B2E82BD11623B99C00B2FC69 /* SUP101KeyGeneratorPKMetaData.m in Sources */,
+				B2E82BD21623B99C00B2FC69 /* SUP101KeyPackageNameMetaData.m in Sources */,
+				B2E82BD31623B99C00B2FC69 /* SUP101LocalKeyGeneratorMetaData.m in Sources */,
+				B2E82BD41623B99C00B2FC69 /* SUP101LocalKeyGeneratorPKMetaData.m in Sources */,
+				B2E82BD51623B99C00B2FC69 /* SUP101LogRecordImplMetaData.m in Sources */,
+				B2E82BD61623B99C00B2FC69 /* SUP101OfflineAuthenticationMetaData.m in Sources */,
+				B2E82BD71623B99C00B2FC69 /* SUP101OperationReplayMetaData.m in Sources */,
+				B2E82BD81623B99C00B2FC69 /* SUP101PackagePropertiesMetaData.m in Sources */,
+				B2E82BD91623B99C00B2FC69 /* SUP101PersonalizationParametersMetaData.m in Sources */,
+				B2E82BDA1623B99C00B2FC69 /* SUP101Sales_order_itemsMetaData.m in Sources */,
+				B2E82BDB1623B99C00B2FC69 /* SUP101Sales_orderMetaData.m in Sources */,
+				B2E82BDC1623B99C00B2FC69 /* SUP101SISSubscriptionKeyMetaData.m in Sources */,
+				B2E82BDD1623B99C00B2FC69 /* SUP101SISSubscriptionMetaData.m in Sources */,
+				B2E82BDE1623B99C00B2FC69 /* SUP101SUP101DBMetaData.m in Sources */,
+				B2E82BDF1623B99C00B2FC69 /* SUP101ChangeLogImpl.m in Sources */,
+				B2E82BE01623B99C00B2FC69 /* SUP101ChangeLogKey.m in Sources */,
+				B2E82BE11623B99C00B2FC69 /* SUP101Customer.m in Sources */,
+				B2E82BE21623B99C00B2FC69 /* SUP101KeyGenerator.m in Sources */,
+				B2E82BE31623B99C00B2FC69 /* SUP101KeyGeneratorPK.m in Sources */,
+				B2E82BE41623B99C00B2FC69 /* SUP101KeyPackageName.m in Sources */,
+				B2E82BE51623B99C00B2FC69 /* SUP101LocalKeyGenerator.m in Sources */,
+				B2E82BE61623B99C00B2FC69 /* SUP101LocalKeyGeneratorPK.m in Sources */,
+				B2E82BE71623B99C00B2FC69 /* SUP101LoggerImpl.m in Sources */,
+				B2E82BE81623B99C00B2FC69 /* SUP101LogRecordImpl.m in Sources */,
+				B2E82BE91623B99C00B2FC69 /* SUP101OfflineAuthentication.m in Sources */,
+				B2E82BEA1623B99C00B2FC69 /* SUP101OperationReplay.m in Sources */,
+				B2E82BEB1623B99C00B2FC69 /* SUP101PackageProperties.m in Sources */,
+				B2E82BEC1623B99C00B2FC69 /* SUP101PersonalizationParameters.m in Sources */,
+				B2E82BED1623B99C00B2FC69 /* SUP101Sales_order.m in Sources */,
+				B2E82BEE1623B99C00B2FC69 /* SUP101Sales_order_items.m in Sources */,
+				B2E82BEF1623B99C00B2FC69 /* SUP101SISSubscription.m in Sources */,
+				B2E82BF01623B99C00B2FC69 /* SUP101SISSubscriptionKey.m in Sources */,
+				B2E82BF11623B99C00B2FC69 /* SUP101SUP101DB.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jean Lau (VKJXW37935)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sup101_Prefix.pch;
+				HEADER_SEARCH_PATHS = "\"../iPhoneDrop/RBS/includes\"/**";
+				INFOPLIST_FILE = "Sup101-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "\"../iPhoneDrop/RBS/iOS/Libraries/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = Sup101;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jean Lau (VKJXW37935)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sup101_Prefix.pch;
+				HEADER_SEARCH_PATHS = "\"../iPhoneDrop/RBS/includes\"/**";
+				INFOPLIST_FILE = "Sup101-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = "\"../iPhoneDrop/RBS/iOS/Libraries/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = Sup101;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jean Lau (VKJXW37935)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jean Lau (VKJXW37935)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = "../iPhoneDrop/includes/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Sup101" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Sup101" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
